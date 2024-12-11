@@ -21,8 +21,6 @@ Here are some ideas to get you started:
 
 <a href="https://info.flagcounter.com/iap4"><img src="https://s01.flagcounter.com/map/iap4/size_m/txt_000000/border_AECC5A/pageviews_1/viewers_0/flags_0/" alt="Flag Counter" border="0"></a>
 
-![](https://github-readme-stats.vercel.app/api?username=wisdom-zhe&show_icons=true&theme=transparent)
-
 You are my ![Visitor Count](https://profile-counter.glitch.me/wangyendt/count.svg) visitor,Thank You!
 
 <p align="center" >
