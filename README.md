@@ -21,3 +21,12 @@ Here are some ideas to get you started:
 
 <a href="https://info.flagcounter.com/iap4"><img src="https://s01.flagcounter.com/map/iap4/size_m/txt_000000/border_AECC5A/pageviews_1/viewers_0/flags_0/" alt="Flag Counter" border="0"></a>
 
+![](https://github-readme-stats.vercel.app/api?username=wisdom-zhe&show_icons=true&theme=transparent)
+
+You are my ![Visitor Count](https://profile-counter.glitch.me/wisdom-zhe/count.svg) visitor,Thank You!:kissing_heart::kissing_heart:
+
+### My Skill Set
+
+![](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+
