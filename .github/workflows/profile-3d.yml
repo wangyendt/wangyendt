@@ -17,11 +17,17 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: |
+            {
+              "types": ["all", "default", "season", "season-animate", "green", "green-animate", "night-view", "night-green", "night-rainbow", "gitblock"],
+              "years": [2024, 2023, 2022],
+              "isOnlyContribution": false
+            }
       - name: Commit & Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A .
-          git commit -m "generated"
+          git commit -m "更新 3D 贡献图 (Generated 3D Contribution Chart)"
           git remote set-url origin https://${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git
           git push
