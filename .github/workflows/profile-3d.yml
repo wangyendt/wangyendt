@@ -16,11 +16,9 @@ jobs:
       
       - name: Create settings file
         run: |
-          echo '{
-            "types": ["all", "default", "season", "season-animate", "green", "green-animate", "night-view", "night-green", "night-rainbow", "gitblock"],
-            "years": [2024, 2023, 2022],
-            "isOnlyContribution": false
-          }' > settings.json
+          cat > settings.json << 'EOL'
+          {"types":["all","default","season","season-animate","green","green-animate","night-view","night-green","night-rainbow","gitblock"],"years":[2024,2023,2022],"isOnlyContribution":false}
+          EOL
       
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
