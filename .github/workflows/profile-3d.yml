@@ -17,12 +17,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-          SETTING_JSON: |
-            {
-              "types": ["all", "default", "season", "season-animate", "green", "green-animate", "night-view", "night-green", "night-rainbow", "gitblock"],
-              "years": [2024, 2023, 2022],
-              "isOnlyContribution": false
-            }
       - name: Commit & Push
         run: |
           git config user.name github-actions
