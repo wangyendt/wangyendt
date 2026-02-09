@@ -210,10 +210,7 @@ swift run CrossCommDemo listen
 
 ## Stats
 
-<div align="center">
-  <img height="180" alt="stats" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=wangyendt&show_icons=true&theme=radical&include_all_commits=true&hide_border=true&cache_seconds=86400"/>
-  <img height="180" alt="langs" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=wangyendt&layout=compact&langs_count=8&theme=radical&hide_border=true&cache_seconds=86400"/>
-</div>
+`github-readme-stats` 的公开实例近期不稳定（可能返回 401/503），因此这里使用仓库内的 3D 贡献图作为稳定的统计展示（包含语言分布等信息）。
 
 <p align="center">
   <picture>
