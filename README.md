@@ -83,22 +83,17 @@ I am an algorithm engineer. I focus on turning algorithm prototypes into reusabl
 
 ```mermaid
 flowchart TD
-  %% Skill layer
-  SM[skillmanager<br/>(@wang121ye/skillmanager)] -->|installs / updates / sync AGENTS.md| WS[wayne-skills<br/>(SKILL.md pack)]
+  SM["skillmanager\n(@wang121ye/skillmanager)"] -->|"installs/updates\nsyncs AGENTS.md"| WS["wayne-skills\n(SKILL.md pack)"]
 
-  %% Source-aligned skills
-  WS -->|source-aligned playbooks| PY[pywayne<br/>(wayne_algorithm_lib)]
+  WS -->|"source-aligned\nplaybooks"| PY["pywayne\n(wayne_algorithm_lib)"]
 
-  %% C++ toolchain
-  PY -->|bin/gettool<br/>fetch/build/install| CPP[cpp_tools<br/>(C++ 3rd-party/tool scripts)]
+  PY -->|"bin/gettool\nfetch/build/install"| CPP["cpp_tools\n(C++ 3rd-party/tool scripts)"]
 
-  %% Cross-language parity
-  PY -->|features| F1[OpenAI / Lark(Feishu) / Aliyun OSS / CrossComm]
-  IOS[ios_tools<br/>(Swift Package)] -->|same API areas| F1
-  JAVA[java_tools<br/>(Maven multi-modules)] -->|same API areas| F1
+  PY -->|"shared API areas"| F1["OpenAI\nLark/Feishu\nAliyun OSS\nCrossComm"]
+  IOS["ios_tools\n(Swift Package)"] -->|"same API areas"| F1
+  JAVA["java_tools\n(Maven multi-modules)"] -->|"same API areas"| F1
 
-  %% Optional: direct usage paths
-  WS -. curated selection .->|profiles| SM
+  WS -. "profiles\ncurated selection" .-> SM
 ```
 
 ### How The Pieces Fit
