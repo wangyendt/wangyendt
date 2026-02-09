@@ -211,8 +211,8 @@ swift run CrossCommDemo listen
 ## Stats
 
 <div align="center">
-  <img height="180em" alt="stats" src="https://github-readme-stats.vercel.app/api?username=wangyendt&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-  <img height="180em" alt="langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wangyendt&layout=compact&langs_count=8&theme=radical"/>
+  <img height="180" alt="stats" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=wangyendt&show_icons=true&theme=radical&include_all_commits=true&hide_border=true&cache_seconds=86400"/>
+  <img height="180" alt="langs" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=wangyendt&layout=compact&langs_count=8&theme=radical&hide_border=true&cache_seconds=86400"/>
 </div>
 
 <p align="center">
