@@ -44,7 +44,7 @@
 
 ## 🧭 About Me
 
-> **maths lover** · 清华大学 · 算法工程师(XR / 智能穿戴方向)
+> **maths lover** · 算法工程师(XR / 智能穿戴方向)
 
 我在 AR 眼镜与可穿戴设备行业做算法:**SLAM/VIO、多传感器标定、姿态估计、微手势识别、语音唤醒、信号处理**。
 我的信条是——算法不该停留在 demo 里,所以我持续把原型沉淀为 **可复用的库、CLI、跨语言 SDK 和 AI Agent 工具链**。
@@ -248,7 +248,7 @@ cd java_tools && mvn clean install
 
 | | |
 | --- | --- |
-| 📮 Email | [wang121ye@hotmail.com](mailto:wang121ye@hotmail.com) · [y-w22@mails.tsinghua.edu.cn](mailto:y-w22@mails.tsinghua.edu.cn) |
+| 📮 Email | [wang121ye@hotmail.com](mailto:wang121ye@hotmail.com) |
 | 🌐 Web | [wangye.xin](http://wangye.xin) · [cvllm.com](http://cvllm.com) |
 | 🧑‍💻 Code | [github.com/wangyendt](https://github.com/wangyendt) · [leetcode.com/wangyehope](https://leetcode.com/wangyehope) |
 
